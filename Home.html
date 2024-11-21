@@ -2,11 +2,56 @@
 <html>
 <head>
 <title>Home</title>
+<style>
+
+    /* สไตล์สำหรับหัวตาราง */
+    th {
+        background-color: #23a7db; /* สีพื้นหลัง */
+        color: white; /* สีตัวอักษร */
+        padding: 10px; /* ระยะห่างภายใน */
+        text-align: center; /* จัดตัวอักษรตรงกลาง */
+    }
+
+    /* สไตล์สำหรับเซลล์ข้อมูล */
+    td {
+        padding: 8px; /* ระยะห่างภายใน */
+        text-align: center; /* จัดตัวอักษรตรงกลาง */
+        border: 1px solid #ddd; /* เส้นขอบอ่อน */
+    }
+
+    /* สไตล์สำหรับแถวที่มีสีพื้นหลัง */
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* สีพื้นหลังแถวคู่ */
+    }
+
+    /* เมื่อเอาเมาส์ไปชี้ที่แถว */
+    tr:hover {
+        background-color: #ddd; /* สีพื้นหลังเมื่อชี้ที่แถว */
+    }
+</style>
 <body>
 <div>
 <p>Phachara Pornpong</p>
 <p>Phuwalit Jaraenpon</p>
 <p>Thanattouth Nitichaoren</p>
+<table border="1">
+    <tr>
+        <th>ชื่อนามสกุล</th>
+        <th>รหัสนักศึกษา</th>
+        <tr>
+            <td>Phachara Pornpong</td>
+            <td>6609650509</td>
+        </tr>
+        <tr>
+            <td>Phuwalit Jaraenpon</td>
+            <td>6609650590</td>
+        </tr>
+        <tr>
+            <td>Thanattouth Nitichaoren</td>
+            <td>6609650095</td>
+        </tr>
+    </tr>
+</table>
 </div>
 </body>
 </html>
